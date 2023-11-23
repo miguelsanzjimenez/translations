@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Miguel Sanz Jiménez - Translations</title>
+    <title>Dr. Miguel Sanz Jiménez - Gallery</title>
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- CSS only -->
@@ -23,94 +23,61 @@
     <script src="https://kit.fontawesome.com/8efc22d7af.js" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: rgb(212, 243, 253);
-            color: #000;
+            color: black;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-color: rgb(212, 241, 253);
             height: 100vh;
+            text-align: center;
         }
 
         html {
             scroll-behavior: smooth;
         }
 
-        h2 {
-            font-size: 2rem;
-            margin-top: 3rem;
+        h1 {
+            margin: 5px;
         }
 
-        #other-h2 {
-            margin-top: 0;
-        }
-
-        h3 {
-            font-size: 1rem;
-        }
-
-        /*translations*/
-        .translation_title {
-            text-align: center;
-        }
-
-        .translation-text {
-            text-align: center;
-            margin: 15px 25px;
-        }
-
-        .other-pic {
-            width: 300px;
-        }
-
-        .other_inner {
+        .gallery-container {
             display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .other_inner_text,
-        .other_inner_pic {
+        .about-photos-top-container {
+            margin: 15px;
+        }
+
+        .about-photos {
+            max-width: 70%;
+            min-width: 300px;
+        }
+
+        .about-img {
             width: 300px;
+            margin-bottom: 15px;
         }
 
-        .other_inner_pic {
-            transition: .2s linear;
-        }
-
-        .other_inner_pic:hover {
-            opacity: .5;
-        }
-
-        /*books*/
-        .books,
-        .about,
-        .media,
-        .education_block,
-        .other_container {
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            padding: 20px 20px;
-            margin-bottom: 1rem;
+        .btn {
+            margin-bottom: 50px;
         }
 
 
-
-        .carousel {
-            width: 300px;
-        }
 
 
         /*footer*/
-        .footer {
-            text-align: center;
-        }
-
-
         .footer-icon {
             width: 20px;
             height: 20px;
             margin-bottom: 20px;
+        }
+
+        .nav-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0;
         }
     </style>
 </head>
@@ -133,7 +100,7 @@
                     <a class="nav-link" href="https://miguelsanzjimenez.github.io/about/">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="https://miguelsanzjimenez.github.io/translations/">Translations</a>
+                    <a class="nav-link" href="https://miguelsanzjimenez.github.io/translations/">Translations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://miguelsanzjimenez.github.io/media/">Media</a>
@@ -142,7 +109,7 @@
                     <a class="nav-link" href="https://miguelsanzjimenez.github.io/education/">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://miguelsanzjimenez.github.io/gallery/">Gallery</a>
+                    <a class="nav-link active" href="https://miguelsanzjimenez.github.io/gallery/">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://miguelsanzjimenez.github.io/contact/">Contact</a>
@@ -152,236 +119,136 @@
         </div>
     </nav>
 
-    <section id="translations">
-        <div class="translations-container">
+    <section id="gallery">
+        <div class="gallery-container">
             <br>
             <br>
             <br>
             <br>
-            <h1 class="translation_title">Translations</h1>
-            <p class="translation-text">Below are books that Dr. Sanz Jiménez has translated. Click on the image for
-                more info.</p>
-            <section id="books-section">
-                <div class="books">
-                    <div class="books_info">
-                        <h2>Books</h2>
-                        <br>
-                        <a href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/L%c3%a1grimas+como+navajas/202309ES"
-                            target="_blank">
-                            <h3>Lágrimas como navajas</h3>
-                        </a>
+            <h1>Gallery</h1>
+            <div class="about about-photos">
+                <img class="about-img" src="cosby-1.jpg" alt="cosby">
 
-                        <p>S.A. Cosby</p>
-                        <br>
-                        <a href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/Maldito+asfalto/2203ES"
-                            target="_blank">
-                            <h3>Maldito asfalto</h3>
-                        </a>
-
-                        <p>S.A. Cosby</p>
-                        <br>
-                        <a href="https://www.guillermoescolareditor.com/libro/john-barleycorn_124280/" target="_blank">
-                            <h3>John Barleycorn: Memorias de un alcohólico</h3>
-                        </a>
-                        <p>Jack London</p>
-                        <br>
-                        <a href="https://www.hojadelata.net/tienda/democracy-now/" target="_blank">
-                            <h3>Democracy Now!</h3>
-                        </a>
-                        <p>Amy Goodman</p>
-                        <br>
-                        <a href="https://labibliotecadecarfax.com/producto/no-mires-ahora-y-otros-relatos/"
-                            target="_blank">
-                            <h3>No mires ahora y otros relatos</h3>
-                        </a>
-                        <p>Daphne DuMaurier</p>
-                        <br>
-                        <a href="https://www.hojadelata.net/tienda/el-pajaro-carpintero/" target="_blank">
-                            <h3>El pájaro carpintero</h3>
-                        </a>
-                        <p>James McBride</p>
-
-                    </div>
-                    <div class="carousel_container">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <a href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/L%c3%a1grimas+como+navajas/202309ES"
-                                            target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="lagrimas.jpeg"
-                                                alt="lagrimas">
-                                        </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/Maldito+asfalto/2203ES"
-                                            target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="maldito.jpg"
-                                                alt="maldito">
-                                        </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://www.guillermoescolareditor.com/libro/john-barleycorn_124280/"
-                                            target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="memorias.jpg"
-                                                alt="memorias">
-                                        </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://www.hojadelata.net/tienda/democracy-now/" target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="democracy.jpg"
-                                                alt="democracy">
-                                        </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://labibliotecadecarfax.com/producto/no-mires-ahora-y-otros-relatos/"
-                                            target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="nomires.jpg"
-                                                alt="no-mires">
-                                        </a>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <a href="https://www.hojadelata.net/tienda/el-pajaro-carpintero/"
-                                            target="_blank">
-                                            <img id="carousel_pic" class="d-block w-100" src="pajaro.jpg"
-                                                alt="carpintero">
-                                        </a>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
+                <p class="gallery-text">Dr. Sanz Jiménez with S.A. Cosby
+                </p>
+                <div class="btn-container">
+                    <button class="gallery-btn prev btn btn-primary">Previous</button>
+                    <button class="gallery-btn next btn btn-primary">Next</button>
                 </div>
-            </section>
-            <h1 class="translation_title">Other Translations</h1>
-            <section id="audiobooks-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2">Audiobooks</h2>
-                        <p>You can find Dr. Sanz Jiménez's work in audio form as well. His translation of <i>El
-                                pájaro carpintero</i> has been narrated for your listening pleasure in this <a
-                                href="https://www.penguinrandomhouse.com/books/724014/el-pajaro-carpintero-by-james-mcbride-translated-by-miguel-sanz-jimenez/">audiobook</a>.
-                        </p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                        <a href="https://www.penguinrandomhouse.com/books/724014/el-pajaro-carpintero-by-james-mcbride-translated-by-miguel-sanz-jimenez/"
-                            target="blank"><img class="other-pic" src="audiobook.jpeg" alt="audiobook"></a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="hellpress-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2">Hellpress</h2>
-                        <p>Dr. Sanz Jiménez has collaborated with <i>Hellpress.com</i>, a Heavy Metal and Hard Rock news
-                            website. He has
-                            translated many interviews with international metal musicians into Spanish. More of his
-                            interviews
-                            can
-                            be found <a href="https://www.hellpress.com/?s=%22sanz+jim%C3%A9nez%22"
-                                target="blank">here</a>.</p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                        <a href="https://www.hellpress.com/?s=%22sanz+jim%C3%A9nez%22" target="blank"><img
-                                class="other-pic" src="hellpress1.png" alt="hellpress"></a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="netflix-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2">Netflix</h2>
-                        <p>Additionally, he has translated subtitles for Netflix, the leading streaming service. The TV
-                            shows he
-                            has
-                            translated include the true crime <em>Fatal Attaction</em>. </p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                        <a href="subtitulos.JPG" target="blank"><img class="other-pic" src="subtitulos.JPG"
-                                alt="subtitles"></a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="plot-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2">Comics</h2>
-                        <p>Dr. Sanz Jiménez has shown interest in comic-books. For the magazine <i>Plot 2.0.</i>, he has
-                            translated comic
-                            strips and interviews with renowned cartoonists. </p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                        <a href="dateline.jpg" target="blank"><img class="other-pic" src="dateline.jpg"
-                                alt="dateline"></a>
-                    </div>
-                </div>
-            </section>
-            <h1 class="translation_title">Movie Reviews</h1>
-            <section id="movie-reviews-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2"><em>El cinema de Hollywood</em></h2>
-                        <p>As a cinephile, Dr. Sanz Jiménez also contributes to the blog <em>El cinema de Hollywood</em>. His reviews can be found <a href="https://www.elcinedehollywood.com/search/label/Mike%20Sanz">here</a>.</p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                        <a href="https://www.elcinedehollywood.com/search/label/Mike%20Sanz"
-                            target="blank"><img class="other-pic" src="cinema.png" alt="audiobook"></a>
-                    </div>
-                </div>
-            </section>
-            <h1 class="translation_title">Short Stories</h1>
-            <section id="movie-reviews-section">
-                <div class="other_container">
-                    <div class="other_inner_text">
-                        <h2 id="other-h2"><em>Convergence</em> and <em>Los tipos duros no existen</em></h2>
-                        <p><a href="https://www.ucm.es/data/cont/docs/119-2015-07-09-Sanz.pdf" target="_blank"><i>Convergence</i></a> and <a href="https://www.zonanegativa.com/concurso-criminal-los-tipos-duros-no-existen-por-miguel-sanz/" target="_blank"><i>Los tipos duros no existen</i></a> are short stories written by Dr. Sanz Jiménez. The works have been awarded prizes for short fiction.</p>
-                    </div>
-
-                    <div class="other_inner_pic">
-
-                       <img class="other-pic" src="short-story.png" alt="short-story">
-                    </div>
-                </div>
-            </section>
-            <div class="footer">
                 <p class="footer-text">Copyright &#169; <span class="year">2002</span> | Miguel Sanz Jiménez</p>
                 <img class="footer-icon" src="favicon.ico" alt="icon">
             </div>
 
-        </div>
 
     </section>
 
     <script>
+        const aboutImg = document.querySelector('.about-img');
+        const galleryText = document.querySelector('.gallery-text');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
 
+        const galleryImages = [
+            {
+                image: 'cosby-1.jpg',
+                text: 'Dr. Sanz Jiménez with noir writer S.A. Cosby'
+            },
+            {
+                image: 'cosby-2.jpg',
+                text: 'Dr. Sanz Jiménez with noir writer S.A. Cosby'
+            },
+            {
+                image: 'cosby-3.jpg',
+                text: 'Dr. Sanz Jiménez with noir writer S.A. Cosby'
+            },
+            {
+                image: 'winslow.jpg',
+                text: 'Dr. Sanz Jiménez with American crime writer Don Winslow'
+            },
+            {
+                image: 'silva.jpg',
+                text: 'Dr. Sanz Jiménez with writer Lorenzo Silva at Getafe Negro'
+            },
+            {
+                image: 'jones.jpg',
+                text: 'Dr. Sanz Jiménez with horror writer Stephen Graham Jones'
+            },
+            {
+                image: 'whitehead.jpg',
+                text: 'Dr. Sanz Jiménez meets Pulitzer-prize winner Colson Whitehead'
+            },
+            {
+                image: 'granada.jpg',
+                text: 'Dr. Sanz Jiménez sharing his research at Granada University'
+            },
+            {
+                image: 'everett.jpg',
+                text: 'Dr. Sanz Jiménez greets American novelist Percival Everett'
+            },
+            {
+                image: 'jaume.jpg',
+                text: 'Conference at Universitat Jaume I'
+            },
+            {
+                image: 'publishers.jpg',
+                text: 'Spanish publishers and Dr. Sanz Jiménez talk to students at Complutense University'
+            },
+            {
+                image: 'about-img-1.JPG',
+                text: 'Dr. Sanz Jiménez discusses his research at the University of Málaga'
+            },
+            {
+                image: 'about-img-4.jpg',
+                text: 'Dr. Sanz Jiménez in Belfast'
+            },
+            {
+                image: 'about-image-2.png',
+                text: "At Madrid's Feria del Libro, Dr. Sanz Jiménez signs his books"
+
+            },
+            {
+                image: 'about-image-3.png',
+                text: 'Dr. Sanz Jiménez meets American writer Paul Auster'
+            },
+
+            {
+                image: 'alcala.jpeg',
+                text: 'Dr. Sanz Jiménez sharing his research at Alcalá University'
+            },
+            {
+                image: 'antolin.jpg',
+                text: 'Dr. Sanz Jiménez attends a lecture by Spanish translator Mariano Antolín Rato'
+            },
+            {
+                image: 'cantabria.jpg',
+                text: 'Dr. Sanz Jiménez discusses his research at the University of Cantabria'
+            }
+        ];
+
+        let currentItem = 0;
+
+        function displayImage() {
+            let item = galleryImages[currentItem];
+
+            aboutImg.src = item.image;
+            galleryText.innerHTML = item.text;
+        }
+
+        prevBtn.addEventListener('click', function () {
+            currentItem--;
+            if (currentItem < 0) {
+                currentItem = galleryImages.length - 1;
+            }
+            displayImage()
+        })
+
+        nextBtn.addEventListener('click', function () {
+            currentItem++;
+            if (currentItem > galleryImages.length - 1) {
+                currentItem = 0;
+            }
+            displayImage()
+        })
 
         const year = document.querySelector('.year');
         const currentYear = new Date().getFullYear();
